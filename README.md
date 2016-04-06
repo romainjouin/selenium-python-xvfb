@@ -18,10 +18,10 @@ You can choose between:
 You can choose between:
 
 ##### 1) Joining inside
-` docker run --name selenium -ti --net=host pimuzzo/selenium_python_xvfb bash`
+` docker run --name selenium -ti pimuzzo/selenium_python_xvfb bash`
 
 ##### 2) Using from outside
-` docker run -ti -v /your_local_dir:/home/something selenium python /something/your_file.py `
+` docker run -ti -v /your_local_dir:/home/something pimuzzo/selenium_python_xvfb python /something/your_file.py `
 
 Optional:
 - You can specify the browser with the BROWSER environment variable
