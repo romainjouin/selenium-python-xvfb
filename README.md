@@ -1,6 +1,6 @@
 ####Useful Docker container image
 
-Forked from: https://goo.gl/Fu723f khozzy/selenium-python-chrome
+Forked from: [khozzy/selenium-python-chrome](https://goo.gl/Fu723f)
 
 #### BUILD IMAGE:
 
@@ -24,8 +24,7 @@ You can choose between:
 ` docker run -ti -v /your_local_dir:/home/something selenium python /something/your_file.py `
 
 Optional:
-- You can specify the browser:
-` -e BROWSER=chrome `
+- You can specify the browser with the BROWSER environment variable
 
 #### EXAMPLE OF CODE WITH SELENIUM:
 ```
