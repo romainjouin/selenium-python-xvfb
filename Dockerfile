@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y $BROWSER \
 
 RUN easy_install pip
 
-RUN pip install selenium pyvirtualdisplay unittest-xml-reporting
+RUN pip install selenium pyvirtualdisplay requests unittest-xml-reporting
 
 #==================
 # Vim highlight
