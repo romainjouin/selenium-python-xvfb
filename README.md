@@ -11,17 +11,17 @@ You can choose between:
 ` docker build -t selenium . ` (in the same path of your Dockerfile)
 
 ##### 2) Pull it from docker hub:
-` docker pull pimuzzo/selenium_python_xvfb `
+` docker pull pimuzzo/selenium-python-xvfb `
 
 #### RUN CONTAINER:
 
 You can choose between:
 
 ##### 1) Joining inside
-` docker run --name selenium -ti pimuzzo/selenium_python_xvfb bash`
+` docker run --name selenium -ti pimuzzo/selenium-python-xvfb bash`
 
 ##### 2) Using from outside
-` docker run -ti -v /your_local_dir:/home/something pimuzzo/selenium_python_xvfb python /home/something/your_file.py `
+` docker run -ti -v /your_local_dir:/home/something pimuzzo/selenium-python-xvfb python /home/something/your_file.py `
 
 Optional:
 - You can specify the browser with the BROWSER environment variable
